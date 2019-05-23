@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/react-adventure/static/js/runtime~main.f14d2d3a.js"
   },
   {
-    "revision": "076fe36a1e43776b13d1",
-    "url": "/react-adventure/static/js/main.4a79470a.chunk.js"
+    "revision": "971e429bdd863be24012",
+    "url": "/react-adventure/static/js/main.f223b654.chunk.js"
   },
   {
-    "revision": "1f7ec79111a6631284bb",
-    "url": "/react-adventure/static/js/2.74622314.chunk.js"
+    "revision": "a6ea582ac5631d117558",
+    "url": "/react-adventure/static/js/2.d909708f.chunk.js"
   },
   {
-    "revision": "076fe36a1e43776b13d1",
+    "revision": "971e429bdd863be24012",
     "url": "/react-adventure/static/css/main.362515ed.chunk.css"
   },
   {
-    "revision": "1f7ec79111a6631284bb",
+    "revision": "a6ea582ac5631d117558",
     "url": "/react-adventure/static/css/2.e7f6f7da.chunk.css"
   },
   {
-    "revision": "97a2670d22505514a78a491fd8af08ca",
+    "revision": "7e2ced4bc25bd3dfb4b6d946e03e9c56",
     "url": "/react-adventure/index.html"
   }
 ];
