@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 //import ReactDOM from "react-dom";
 
 import Home from "./components/Home";
@@ -29,7 +29,7 @@ class App extends Component {
   handleSubmit(event) {
      
       if (this.state.value === "north"){
-        //alert('An essay was submitted: ' + this.state.value);
+        alert('An essay was submitted: ' + this.state.value);
         return <Redirect to='/about' />
        
       }
@@ -46,7 +46,7 @@ class App extends Component {
   render() {
     return (
 
-<HashRouter>
+<BrowserRouter>
 <div>
   
   <Navigation />
@@ -72,7 +72,7 @@ class App extends Component {
 </div>
 
 </div>
-</HashRouter>
+</BrowserRouter>
 
     );
   }

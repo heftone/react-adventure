@@ -2,7 +2,7 @@
   "name": "c-react-site-1",
   "version": "0.1.0",
   "private": true,
-  "homename": "http://heftone.github.com/react-adventure",
+  "homepage": "http://heftone.github.io/react-adventure/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
@@ -16,10 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
 
   },
