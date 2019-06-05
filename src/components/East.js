@@ -1,12 +1,12 @@
 import React from "react";
 
-const Error = () => {
+const East = () => {
     return (
         <div>
             <h1>GROD, the Conquerer</h1>
-            <p>Error: Page does not exist.</p>
+            <p>You are going east.</p>
         </div>
     );
 };
 
-export default Error;
+export default East;

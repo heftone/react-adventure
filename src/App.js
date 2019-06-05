@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
-//import ReactDOM from "react-dom";
-
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Submit from "./components/Submit";
-import Error from "./components/Error";
-import Navigation from "./components/Navigation";
-//import Game from "./components/Game";
+import { withRouter } from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -29,57 +20,50 @@ class App extends Component {
   handleSubmit(event) {
      
       if (this.state.value === "north"){
-        alert('An essay was submitted: ' + this.state.value);
-        return <Redirect to='/about' />
+        this.props.history.push('/north');
        
       }
       if (this.state.value ==="south"){
-        alert('You are going South');
+        this.props.history.push('/south');
       }
-      else {
 
-      alert('Please type correct answer');
-}
-    event.preventDefault();
+      if (this.state.value ==="east"){
+        this.props.history.push('/east');
+      }
+
+
+      if (this.state.value ==="west"){
+        this.props.history.push('/west');
+      }
+
+      if (this.state.value ==="error"){
+        this.props.history.push('/error');
+      }
+
   }
 
   render() {
+
     return (
 
-<BrowserRouter basename={process.env.PUBLIC_URL}>
-<div>
-  
-  <Navigation />
-  <Switch>
-   
 
-   <Route path="/" component={Home} exact />
-   <Route path="/about" component={About} />
-    <Route path="/contact" component={Contact} />
-    <Route path="/submit" component={Submit} />
-    <Route component={Error} />
-  </Switch>
-  
   
   <div>
+ 
       <form onSubmit={this.handleSubmit}>
-      <label>
-        Type Here:
+      <label>Type Here: 
         <input value={this.state.value} onChange={this.handleChange} />
       </label>
       <input type="submit" value="Submit" />
+     
     </form>
 </div>
-
-</div>
-</BrowserRouter>
-
     );
   }
 }
 
-export default App;
-
+export default withRouter(App);
+  // eslint-disable-next-line 
 /*
 
 <Game />
@@ -190,6 +174,39 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<Grod />, rootElement);
 
 serviceWorker.unregister();
+
+
+
+
+<BrowserRouter>
+<div>
+  
+  <Navigation />
+  <Switch>
+   
+
+   <Route path="/" component={Home} exact />
+   <Route path="/about" component={About} />
+    <Route path="/contact" component={Contact} />
+    <Route path="/submit" component={Submit} />
+    <Route component={Error} />
+
+  </Switch>
+
+  
+  <div>
+      <form onSubmit={this.handleSubmit}>
+      <label>
+        Type Here:
+        <input value={this.state.value} onChange={this.handleChange} />
+      </label>
+      <input type="submit" value="Submit" />
+     
+    </form>
+</div>
+
+</div>
+</BrowserRouter>
 
 
 
