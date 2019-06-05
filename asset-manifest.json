@@ -1,17 +1,15 @@
 {
   "main.css": "/react-adventure/static/css/main.362515ed.chunk.css",
-  "main.js": "/react-adventure/static/js/main.f223b654.chunk.js",
-  "main.js.map": "/react-adventure/static/js/main.f223b654.chunk.js.map",
+  "main.js": "/react-adventure/static/js/main.a5d70ff9.chunk.js",
+  "main.js.map": "/react-adventure/static/js/main.a5d70ff9.chunk.js.map",
   "runtime~main.js": "/react-adventure/static/js/runtime~main.f14d2d3a.js",
   "runtime~main.js.map": "/react-adventure/static/js/runtime~main.f14d2d3a.js.map",
   "static/css/2.e7f6f7da.chunk.css": "/react-adventure/static/css/2.e7f6f7da.chunk.css",
-  "static/js/2.d909708f.chunk.js": "/react-adventure/static/js/2.d909708f.chunk.js",
-  "static/js/2.d909708f.chunk.js.map": "/react-adventure/static/js/2.d909708f.chunk.js.map",
+  "static/js/2.ebc32a20.chunk.js": "/react-adventure/static/js/2.ebc32a20.chunk.js",
+  "static/js/2.ebc32a20.chunk.js.map": "/react-adventure/static/js/2.ebc32a20.chunk.js.map",
   "index.html": "/react-adventure/index.html",
-  "precache-manifest.0d5755957384d459e9eb47f0f7ae0952.js": "/react-adventure/precache-manifest.0d5755957384d459e9eb47f0f7ae0952.js",
+  "precache-manifest.f903094b07dfbed45e44c8b0d66354a4.js": "/react-adventure/precache-manifest.f903094b07dfbed45e44c8b0d66354a4.js",
   "service-worker.js": "/react-adventure/service-worker.js",
   "static/css/2.e7f6f7da.chunk.css.map": "/react-adventure/static/css/2.e7f6f7da.chunk.css.map",
-  "static/css/main.362515ed.chunk.css.map": "/react-adventure/static/css/main.362515ed.chunk.css.map",
-  "static/media/leftAbout_USE.jpg": "/react-adventure/static/media/leftAbout_USE.4a84080c.jpg",
-  "static/media/middleRightHome_USEALT.JPG": "/react-adventure/static/media/middleRightHome_USEALT.f5ee25fe.JPG"
+  "static/css/main.362515ed.chunk.css.map": "/react-adventure/static/css/main.362515ed.chunk.css.map"
 }
